@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		CE1EB38A238BAB6E0019ADEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB389238BAB6E0019ADEC /* AppDelegate.swift */; };
 		CE1EB38C238BAB6E0019ADEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB38B238BAB6E0019ADEC /* SceneDelegate.swift */; };
-		CE1EB38E238BAB6E0019ADEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB38D238BAB6E0019ADEC /* ViewController.swift */; };
+		CE1EB38E238BAB6E0019ADEC /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB38D238BAB6E0019ADEC /* GoogleViewController.swift */; };
 		CE1EB391238BAB6E0019ADEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1EB38F238BAB6E0019ADEC /* Main.storyboard */; };
 		CE1EB393238BAB6F0019ADEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1EB392238BAB6F0019ADEC /* Assets.xcassets */; };
 		CE1EB396238BAB6F0019ADEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1EB394238BAB6F0019ADEC /* LaunchScreen.storyboard */; };
 		CE1EB3A1238BAB6F0019ADEC /* DemoModifiedVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3A0238BAB6F0019ADEC /* DemoModifiedVIPERTests.swift */; };
 		CE1EB3AC238BAB6F0019ADEC /* DemoModifiedVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3AB238BAB6F0019ADEC /* DemoModifiedVIPERUITests.swift */; };
+		CE1EB3C2238BB70D0019ADEC /* GoogleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3C1238BB70D0019ADEC /* GoogleProtocols.swift */; };
+		CE1EB3C6238BBC740019ADEC /* GoogleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3C5238BBC740019ADEC /* GoogleBuilder.swift */; };
+		CE1EB3C9238BD35C0019ADEC /* GoogleViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3C8238BD35C0019ADEC /* GoogleViewData.swift */; };
+		CE1EB3CB238BDEB50019ADEC /* GoogleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3CA238BDEB50019ADEC /* GoogleController.swift */; };
+		CE1EB3CD238BE0060019ADEC /* GoogleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3CC238BE0060019ADEC /* GoogleInteractor.swift */; };
+		CE1EB3CF238BE10E0019ADEC /* GooglePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3CE238BE10E0019ADEC /* GooglePresenter.swift */; };
+		CE1EB3D1238BE5BB0019ADEC /* GoogleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3D0238BE5BB0019ADEC /* GoogleRouter.swift */; };
+		CE1EB3D5238BEADD0019ADEC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3D4238BEADD0019ADEC /* APIService.swift */; };
+		CE1EB3D8238BF1520019ADEC /* GoogleAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB3D7238BF1520019ADEC /* GoogleAPIHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,7 @@
 		CE1EB386238BAB6E0019ADEC /* DemoModifiedVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoModifiedVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1EB389238BAB6E0019ADEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1EB38B238BAB6E0019ADEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE1EB38D238BAB6E0019ADEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1EB38D238BAB6E0019ADEC /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		CE1EB390238BAB6E0019ADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE1EB392238BAB6F0019ADEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1EB395238BAB6F0019ADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		CE1EB3A7238BAB6F0019ADEC /* DemoModifiedVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoModifiedVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1EB3AB238BAB6F0019ADEC /* DemoModifiedVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoModifiedVIPERUITests.swift; sourceTree = "<group>"; };
 		CE1EB3AD238BAB6F0019ADEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1EB3C1238BB70D0019ADEC /* GoogleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleProtocols.swift; sourceTree = "<group>"; };
+		CE1EB3C5238BBC740019ADEC /* GoogleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBuilder.swift; sourceTree = "<group>"; };
+		CE1EB3C8238BD35C0019ADEC /* GoogleViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewData.swift; sourceTree = "<group>"; };
+		CE1EB3CA238BDEB50019ADEC /* GoogleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleController.swift; sourceTree = "<group>"; };
+		CE1EB3CC238BE0060019ADEC /* GoogleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleInteractor.swift; sourceTree = "<group>"; };
+		CE1EB3CE238BE10E0019ADEC /* GooglePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePresenter.swift; sourceTree = "<group>"; };
+		CE1EB3D0238BE5BB0019ADEC /* GoogleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleRouter.swift; sourceTree = "<group>"; };
+		CE1EB3D4238BEADD0019ADEC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CE1EB3D7238BF1520019ADEC /* GoogleAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPIHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +117,10 @@
 		CE1EB388238BAB6E0019ADEC /* DemoModifiedVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				CE1EB3D2238BE9000019ADEC /* Services */,
+				CE1EB3B9238BB1770019ADEC /* Modules */,
 				CE1EB389238BAB6E0019ADEC /* AppDelegate.swift */,
 				CE1EB38B238BAB6E0019ADEC /* SceneDelegate.swift */,
-				CE1EB38D238BAB6E0019ADEC /* ViewController.swift */,
 				CE1EB38F238BAB6E0019ADEC /* Main.storyboard */,
 				CE1EB392238BAB6F0019ADEC /* Assets.xcassets */,
 				CE1EB394238BAB6F0019ADEC /* LaunchScreen.storyboard */,
@@ -126,6 +145,126 @@
 				CE1EB3AD238BAB6F0019ADEC /* Info.plist */,
 			);
 			path = DemoModifiedVIPERUITests;
+			sourceTree = "<group>";
+		};
+		CE1EB3B9238BB1770019ADEC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3BC238BB2170019ADEC /* Interactor */,
+				CE1EB3BA238BB1F10019ADEC /* Google */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE1EB3BA238BB1F10019ADEC /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3BB238BB20F0019ADEC /* View */,
+				CE1EB3C4238BB74A0019ADEC /* Controller */,
+				CE1EB3BD238BB2470019ADEC /* Presenter */,
+				CE1EB3BE238BB2550019ADEC /* Entity */,
+				CE1EB3BF238BB3920019ADEC /* Router */,
+				CE1EB3C0238BB3990019ADEC /* Protocol */,
+				CE1EB3C3238BB7400019ADEC /* Builder */,
+				CE1EB3C7238BD2D60019ADEC /* ViewData */,
+				CE1EB3D6238BF07C0019ADEC /* Workers */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		CE1EB3BB238BB20F0019ADEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB38D238BAB6E0019ADEC /* GoogleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1EB3BC238BB2170019ADEC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3CC238BE0060019ADEC /* GoogleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE1EB3BD238BB2470019ADEC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3CE238BE10E0019ADEC /* GooglePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE1EB3BE238BB2550019ADEC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CE1EB3BF238BB3920019ADEC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3D0238BE5BB0019ADEC /* GoogleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CE1EB3C0238BB3990019ADEC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3C1238BB70D0019ADEC /* GoogleProtocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CE1EB3C3238BB7400019ADEC /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3C5238BBC740019ADEC /* GoogleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		CE1EB3C4238BB74A0019ADEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3CA238BDEB50019ADEC /* GoogleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE1EB3C7238BD2D60019ADEC /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3C8238BD35C0019ADEC /* GoogleViewData.swift */,
+			);
+			path = ViewData;
+			sourceTree = "<group>";
+		};
+		CE1EB3D2238BE9000019ADEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3D3238BE9090019ADEC /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE1EB3D3238BE9090019ADEC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3D4238BEADD0019ADEC /* APIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE1EB3D6238BF07C0019ADEC /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1EB3D7238BF1520019ADEC /* GoogleAPIHandler.swift */,
+			);
+			path = Workers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1EB38E238BAB6E0019ADEC /* ViewController.swift in Sources */,
+				CE1EB38E238BAB6E0019ADEC /* GoogleViewController.swift in Sources */,
+				CE1EB3D1238BE5BB0019ADEC /* GoogleRouter.swift in Sources */,
+				CE1EB3D8238BF1520019ADEC /* GoogleAPIHandler.swift in Sources */,
+				CE1EB3CD238BE0060019ADEC /* GoogleInteractor.swift in Sources */,
+				CE1EB3C9238BD35C0019ADEC /* GoogleViewData.swift in Sources */,
+				CE1EB3D5238BEADD0019ADEC /* APIService.swift in Sources */,
+				CE1EB3CB238BDEB50019ADEC /* GoogleController.swift in Sources */,
+				CE1EB3C6238BBC740019ADEC /* GoogleBuilder.swift in Sources */,
 				CE1EB38A238BAB6E0019ADEC /* AppDelegate.swift in Sources */,
+				CE1EB3C2238BB70D0019ADEC /* GoogleProtocols.swift in Sources */,
 				CE1EB38C238BAB6E0019ADEC /* SceneDelegate.swift in Sources */,
+				CE1EB3CF238BE10E0019ADEC /* GooglePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
