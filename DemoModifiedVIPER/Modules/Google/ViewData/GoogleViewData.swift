@@ -9,7 +9,7 @@
 import Foundation
 
 class GoogleViewData: GooglePresenterToViewDataProtocol {
-    var view: GoogleViewDataToViewProtocol?    
+    weak var view: GoogleViewDataToViewProtocol?    
     var responseText: String = "" {
         didSet {
             didSetResponseText()
